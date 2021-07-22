@@ -1,0 +1,30 @@
+﻿<Window x:Class="Midterm.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Midterm"
+        mc:Ignorable="d"
+        Title="Help" Height="450" Width="800">
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <MenuItem HorizontalAlignment="Left" VerticalAlignment="Top" Header="_File">
+                <MenuItem Header="_New" Name="mnuNew" InputGestureText="Ctrl+N" />
+                <MenuItem Header="_Save" Name="mnuSave" InputGestureText="Ctrl+S"/>
+                <Separator/>
+                <MenuItem Header="E_xit" InputGestureText="Alt+F4" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem HorizontalAlignment="Left" VerticalAlignment="Top" Header="_Edit">
+                <MenuItem Header="_Insert" Name="mnuInsert" InputGestureText="Ctrl+I" />
+                <MenuItem Header="_Update" Name="mnuUpdate" InputGestureText="Ctrl+U" />
+                <MenuItem Header="_Delete"  Name="mnuDelete" InputGestureText="Ctrl+D"/>
+            </MenuItem>
+            <MenuItem HorizontalAlignment="Left" Name="Helpn" VerticalAlignment="Top" Header="_Help" />
+
+        </Menu>
+        <StackPanel>
+        <Label  Margin="0 20 0 0" Content="Help Page" FontSize="40" HorizontalAlignment="Center" FontWeight="Bold"  ></Label>
+        <Label  Content="This Program does CRUD Operation on four types of class. The classes are Person, Sports &#xD;&#xA;Team, Personality and Education.&#xD;&#xA;The Person class has fields like Id, Name, Address, Email, Age and Birthday.&#xD;&#xA;The Sports Team has fields like Id, Person Id, Sports Team and City.&#xD;&#xA;The Personality class has fields like Id, Person Id, Shoe size, Favourite actor, Favourite&#xD;&#xA; movie.&#xD;&#xA;and The Education class has fields like Id, Person Id,  Course Name, Course grade and &#xD;&#xA;comments." FontSize="20"></Label>
+        </StackPanel>
+    </Grid>
+</Window>

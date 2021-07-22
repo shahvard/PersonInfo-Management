@@ -1,0 +1,50 @@
+﻿<Window x:Class="Midterm.PersonUpdate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Midterm"
+        mc:Ignorable="d"
+        Title="PersonUpdate" Height="450" Width="800">
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <MenuItem HorizontalAlignment="Left" VerticalAlignment="Top" Header="_File">
+                <MenuItem Header="_New" Name="mnuNew" InputGestureText="Ctrl+N" />
+                <MenuItem Header="_Save" Name="mnuSave" InputGestureText="Ctrl+S"/>
+                <Separator/>
+                <MenuItem Header="E_xit" InputGestureText="Alt+F4" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem HorizontalAlignment="Left" VerticalAlignment="Top" Header="_Edit">
+                <MenuItem Header="_Insert" Name="mnuInsert" InputGestureText="Ctrl+I" Click="mnuInsert_Click"/>
+                <MenuItem Header="_Update" Name="mnuUpdate" InputGestureText="Ctrl+U" Click="mnuUpdate_Click"/>
+                <MenuItem Header="_Delete"  Name="mnuDelete" InputGestureText="Ctrl+D" Click="mnuDelete_Click"/>
+            </MenuItem>
+            <MenuItem HorizontalAlignment="Left" Name="Help" VerticalAlignment="Top" Header="_Help" Click="Help_Click">
+            </MenuItem>
+        </Menu>
+        
+        <StackPanel Margin="0 20 0 0">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF853E3E" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <Label Content="Id" Background="#FF317485" FontSize="20"/>
+            <Label Name="txtId" Background="#FFE8DDDD" Height="35" />
+            <Label Content="Name:" Background="#FF317485" FontSize="20"/>
+            <TextBox Name="txtName" />
+            <Label Content="Address:" Background="#FF317485" FontSize="20"/>
+            <TextBox Name="txtAddress" />
+            <Label Content="Email:" Background="#FF317485" FontSize="20"/>
+            <TextBox Name="txtemail" />
+            <Label Content="Age:" Background="#FF317485" FontSize="20"/>
+            <TextBox Name="txtAge" />
+            <Label Content="Birthday:" Background="#FF317485" FontSize="20"/>
+            <TextBox Name="txtBirthday" />
+            <Button Content="Update" Click="Button_Click" Background="#FF7A9AA2" />
+        </StackPanel>
+
+
+    </Grid>
+</Window>

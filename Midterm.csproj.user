@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="EducationInsert.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EducationUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EducationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Help.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonalityInsert.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonalityUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonalityWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="personInsert.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PersonWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="sportsInsert.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SportsUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SportsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="EducationInsert.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EducationUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EducationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Help.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonalityInsert.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonalityUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonalityWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="personInsert.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PersonWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="sportsInsert.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SportsUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SportsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
